@@ -22,6 +22,29 @@ export class TodoService {
 }
 ```
 
+## Template code
+
+index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular RxJS Todo App</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <app-todo></app-todo>
+</body>
+
+</html>
+```
+
 ## Component code
 ```
 import { Component, OnInit } from '@angular/core';
